@@ -1,0 +1,40 @@
+{
+  "name": "typo-tolerant-express",
+  "version": "1.0.0",
+  "description": "Express.js middleware for handling typos in URL paths",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/test.js",
+    "start": "node src/example.js",
+    "start:advanced": "node src/advanced-example.js"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "typo",
+    "tolerance",
+    "url",
+    "path",
+    "levenshtein",
+    "edit-distance",
+    "fuzzy-matching"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "levenshtein": "^1.0.5",
+    "path-to-regexp": "^6.3.0"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/typo-tolerant-express.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/typo-tolerant-express/issues"
+  },
+  "homepage": "https://github.com/yourusername/typo-tolerant-express#readme"
+}
